@@ -21,10 +21,5 @@ public class MyController {
         return "1";
     }
 
-    @RequestMapping(value = "/test2/{id2}", method = RequestMethod.GET)
-    public  String getById2(@PathVariable("id2") Long id2) {
-        System.out.println("请求成功");
-        return "2";
-    }
 
 }

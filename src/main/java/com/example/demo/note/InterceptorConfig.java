@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
  * @date: 2020-10-26 14:57
  */
 @Configuration
-public class Login extends WebMvcConfigurerAdapter {
+public class InterceptorConfig extends WebMvcConfigurerAdapter {
 
     @Bean
     public SessionInterceptor getSessionInterceptor() {
